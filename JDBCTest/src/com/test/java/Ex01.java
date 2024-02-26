@@ -13,18 +13,18 @@ public class Ex01 {
 		 - 자바 응용 프로그램 <-> JDBC(연결) <-> 오라클 데이터베이스
 		 - 중간 계층
 		 - 영속성 계층(Persistence Layer)
-		 - API > 클래스 집합 
-		 
+		 - API > 클래스 집합
+		
 		 1. JDBC  (2)
 		 2. Spring-JDBC (3)
 		 3. MyBatis (1)
 		 4. JPA
-		 
+		
 		 JDBC Driver 설치
 		 - 각 DBMS 홈페이지 > 언어별 제공
 		 - Oracle  설치 > 같이 배포 > "obdbc8.jar"
 		 - lib 폴더 생성 > ojdbc8.jar > build path > configure build path 설정
-		 
+		
 		 [사람 + SQL Developer <-> Oracle Server]
 		 1. 클라이언트 툴 실행
 		 2. DB 서버 접속
@@ -49,7 +49,7 @@ public class Ex01 {
 
 		 [자바 + JDBC  <- (SQL) -> Oracle Server]
 		 1. 자바 응용 프로그램 실행 ( + JDBC )
-		 
+		
 		 2. DB 서버 접속
 		 	- JDBC > Connection 클래스 사용
 		 	- 호스트명 : localhost
@@ -76,8 +76,8 @@ public class Ex01 {
 		   		
 		   		JDBC 라이브러리 클래스
 		   		- Connection, Statement, ResultSet 클래스
-		 
-		 // JDBC 토큰 
+		
+		 // JDBC 토큰
 		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
 		
 		 */
