@@ -77,6 +77,8 @@ public class Ex01 {
 		   		JDBC 라이브러리 클래스
 		   		- Connection, Statement, ResultSet 클래스
 		 
+		 // JDBC 토큰 
+		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
 		
 		 */
 		

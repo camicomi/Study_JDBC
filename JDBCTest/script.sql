@@ -1,1 +1,1 @@
-dd
+select * from tblInsa;
