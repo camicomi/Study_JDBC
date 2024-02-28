@@ -1,0 +1,39 @@
+구현 기능(업무)
+
+- 회원
+	- 로그인/로그아웃
+- 게시판
+	- 글쓰기
+	- 목록보기
+	- 글보기
+	
+패키지 생성 + 파일 생성
+- com.test.main
+	-Main.java
+	-DBUtil.java
+	
+- com.test.member
+	-Main.java
+- com.test.member.repository (DB 처리)
+	-MemberDAO.java 
+- com.test.member.model
+	-MemberDTO.java
+	
+		
+- com.test.board
+
+- Community > "script.sql"
+
+오라클 개정 생성
+show user;
+
+alter session set "_oracle_script" = true;
+
+create user jdbc identified by java1234;
+grant connect, resource, dba to jdbc;
+
+
+lombok 설치
+mvnrepository
+https://mvnrepository.com/artifact/org.projectlombok/lombok/1.18.30 다운로드
+설치 확인 > eclipse.ini > -javaagent:C:\class\dev\eclipse\eclipse\lombok.jar
