@@ -21,7 +21,7 @@ public class MemberMain {
 			
 			System.out.println("*** 회원 ***");
 			
-			if (MemberMain.auth = null) {
+			if (MemberMain.auth == null) {
 				System.out.println("1. 로그인");				
 			} else if (MemberMain.auth != null) {
 				System.out.println("2. 로그아웃");				

@@ -2,6 +2,9 @@ package com.test.main;
 
 import java.util.Scanner;
 
+import com.test.board.BoardMain;
+import com.test.member.MemberMain;
+
 public class Main {
 	
 	public static void main(String[] args) {
@@ -21,9 +24,9 @@ public class Main {
 			
 			if (sel.equals("1")) {
 				
-				com.test.member.MemberMain.start();
+				MemberMain.start();
 			} else if (sel.equals("2")) {
-				
+				BoardMain.start();
 				
 			} else {
 				loop = false;

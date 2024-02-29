@@ -21,6 +21,14 @@
 	
 		
 - com.test.board
+	- BoardMain.java
+	- List.java // 목록보기
+	- Add.java// 글쓰기
+	com.test.board.repository
+	- BoardDAO.java
+	- com.test.board.model
+	-boardDTO.java
+	
 
 - Community > "script.sql"
 

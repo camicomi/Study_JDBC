@@ -8,8 +8,8 @@ import lombok.Setter;
 // - 계층간 데이터를 전달하는 용도(상자)
 
 // lombok
-// @Getter
-// @Setter
+@Getter
+@Setter
 
 // Getter + Setter + ToString 
 @Data
